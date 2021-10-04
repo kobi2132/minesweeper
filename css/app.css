@@ -1,0 +1,39 @@
+body {
+    background-image: url("background.png");
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cell img {
+    width: 35px;
+
+}
+
+td {
+    background-color: rgb(6, 147, 194);
+    border: grey solid 1px;
+}
+
+.board {
+    margin:auto;
+    background-color: lightcoral;
+    height: auto;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+div h1 {
+    margin: auto;
+    text-align: center;
+
+}
+
+.selected {
+    background-color: lightblue
+}
