@@ -6,7 +6,7 @@ function printMat(mat, selector) {
     for (var j = 0; j < mat[0].length; j++) {
       var tdId = `cell-${i}-${j}`;
       var className = 'cell cell' + i + '-' + j;
-      strHTML += '<td id=' + tdId + ' class="' + className + '" onclick="cellClicked(this)"></td>'
+      strHTML += '<td id=' + tdId + ' class="' + className + '" onclick="cellClicked(this)" onmousedown ="mouseClick(event)"></td>'
     }
     strHTML += '</tr>'
   }
