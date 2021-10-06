@@ -3,7 +3,6 @@ body {
 }
 
 div h1 {
-    margin: auto;
     text-align: center;
     color: rgb(2, 87, 224);
     margin-top: 30px;
@@ -13,31 +12,53 @@ div h1 {
 }
 
 .board {
-    margin: auto;
     border-radius: 8px;
     background-color: rgb(238, 149, 149);
-    height: auto;
+    box-shadow: 10px 10px 5px grey;
     padding: 30px;
-    display: inline-block;
+    margin: auto;
+    height: auto;
+    width: fit-content;
+    display: block;
+
+}
+
+.header {
+    margin: auto;
+    height: auto;
+    width: fit-content;
+    display: flex;
 }
 
 .headerBox {
     border: 2.5px inset rgb(6, 147, 194);
+    border-radius: 8px;
     background-color: lightblue;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin: auto
+    font-size: 1.7em;
+    margin: 15px;
+    display:flex;
+    align-items:center;
+    justify-content:center
 }
 
 .levels {
     margin: auto;
-    display: inline-block;
+    height: auto;
+    width: fit-content;
+    display: block;
 }
 
+button {
+    background-color: rgb(201, 233, 243);
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 8px;
+    font-family: "Audiowide", sans-serif;
+}
 .cell {
     width: 40px;
     height: 40px;
@@ -47,6 +68,13 @@ div h1 {
 
 .cell img {
     width: 35px;
+}
+
+table {
+    margin: auto;
+    height: auto;
+    width: fit-content;
+    display: block;
 }
 
 td {
@@ -64,11 +92,4 @@ td {
     border: 0.1px inset red;
 
 }
-button {
-    background-color: rgb(201, 233, 243);
-    padding: 5px;
-    margin: 5px;
-    width: 100px;
-    border-radius: 8px;
-    font-family: "Audiowide", sans-serif;
-}
+
